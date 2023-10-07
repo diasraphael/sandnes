@@ -3,7 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import { makeStyles } from '@mui/styles';
+//import { makeStyles } from '@mui/styles';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -38,7 +38,7 @@ function a11yProps(index: number) {
   };
 }
 
-const useStyles = makeStyles((theme) => ({
+/* const useStyles = makeStyles((theme) => ({
   // Customize the root class for the Tab component
   tabRoot: {
     '&.Mui-selected': {
@@ -50,13 +50,14 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: 'your-hover-background-color', // Change the hover background color here
     },
   },
-}));
+})); */
 
 export default function BasicTabs() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
+    console.log(event);
   };
 
   return (

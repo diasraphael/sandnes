@@ -10,7 +10,7 @@ import Footer from './components/footer/Footer';
 import LandingPage from './components/landingPage/LandingPage';
 import Vision from './components/vision/Vision';
 import Welcome from './components/welcome/Welcome';
-import Events from './components/events/Events';
+//import Events from './components/events/Events';
 
 const theme = createTheme({
   typography: {
