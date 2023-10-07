@@ -21,5 +21,7 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
+  "types": ["@mui/styles"],
+  "typesRoot": ["./node_modules/@mui/styles"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
