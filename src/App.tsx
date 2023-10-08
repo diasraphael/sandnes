@@ -11,6 +11,7 @@ import LandingPage from './components/landingPage/LandingPage';
 import Vision from './components/vision/Vision';
 import Welcome from './components/welcome/Welcome';
 import Header from './components/header/Header';
+import Promise from './components/promise/Promise';
 //import Events from './components/events/Events';
 
 const theme = createTheme({
@@ -33,6 +34,7 @@ function App() {
         <Vision></Vision>
       </ThemeProvider>
       {/* <Events></Events> */}
+      <Promise></Promise>
       <Footer></Footer>
     </div>
   );

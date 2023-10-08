@@ -11,7 +11,7 @@ interface SliderContentProps {
 const SliderContent = ({ title, description }: SliderContentProps) => {
   return (
     <div className="h-auto max-w-[300px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[800px] px-4 pt-8 sm:pt-20 pb-20 min-h-screen text-center flex flex-col justify-center items-center mx-auto">
-      <h1 className="text-white text-[40px] sm:text-[72px] md:[115px] my-3 leading-[1.2em]">
+      <h1 className="text-white text-[40px] sm:text-[72px] lg:text-[115px] my-3 leading-[1.2em]">
         {title}
       </h1>
       <p className="max-w-[700px] text-white text-center mt-5 mb-10 font-['Jost'] text-base font-light leading-loose">
