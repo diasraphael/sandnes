@@ -1,10 +1,11 @@
 import React from 'react';
+import logo from '/src/assets/logo.png';
 
 const Header = () => {
   return (
     <div className="absolute flex flex-row justify-between items-center h-16 z-10 top-10 w-full">
       <div className="w-20 my-8 mx-16">
-        <img src="/src/assets/logo.png" alt="logo" />
+        <img src={logo} alt="logo" />
       </div>
       <div className="hidden lg:flex flex-row justify-center flex-1 text-white">
         <div className="mx-8 text-xl">Home</div>
