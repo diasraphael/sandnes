@@ -1,4 +1,5 @@
 import React from 'react';
+import pray from '/src/assets/pray.webp';
 import ControlledAccordions from '../material/accordion/Accordion';
 
 const Vision = () => {
@@ -23,11 +24,7 @@ const Vision = () => {
           </div>
         </div>
         <div className="relative w-full lg:py-20 lg:my-28">
-          <img
-            src="/src/assets/pray.webp"
-            className=" objec-cover"
-            alt="pray"
-          />
+          <img src={pray} className=" objec-cover" alt="pray" />
         </div>
       </div>
     </div>

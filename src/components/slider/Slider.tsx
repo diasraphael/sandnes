@@ -41,7 +41,7 @@ const Slider = () => {
     },
     {
       className: 'bg-church z-[100]',
-      title: 'Jesus-Way Truth Life',
+      title: 'Jesus The Way Truth and the Life',
       description:
         '“I am the way and the truth and the life. No one comes to the Father except through me” (John 14:6)',
     },

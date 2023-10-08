@@ -1,11 +1,12 @@
 import React from 'react';
+import promise from '/src/assets/promise.webp';
 
 const Promise = () => {
   return (
     <div className="w-full bg-[#f5f3f1]">
       <div className="px-16 py-24 max-w-7xl mx-auto flex flex-col items-center">
         <img
-          src="/src/assets/promise.webp"
+          src={promise}
           alt="promise"
           className="h-full max-h-[300px] max-w-[350px] mb-8"
         />

@@ -1,11 +1,12 @@
 import React from 'react';
+import church from '/src/assets/church-image.webp';
 
 const Welcome = () => {
   return (
     <div className="w-full bg-[#f5f3f1]">
       <div className="py-28 px-10 max-w-7xl mx-auto flex flex-col items-center">
         <img
-          src="/src/assets/church-image.webp"
+          src={church}
           alt="Image"
           className="h-full max-h-[300px] max-w-[350px] mb-8"
         />
