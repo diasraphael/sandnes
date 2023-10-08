@@ -4,8 +4,8 @@ import ControlledAccordions from '../material/accordion/Accordion';
 const Vision = () => {
   return (
     <div className="w-full bg-white">
-      <div className="py-10 max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
-        <div className="w-full flex flex-col md:flex-row items-center ga7p-8">
+      <div className="px-20 py-10 max-w-7xl mx-auto flex flex-col lg:flex-row gap-12">
+        <div className="w-full flex flex-col md:flex-row items-center gap-8">
           <div className="relative my-20">
             <div>
               <div className="text-[#afafaf] tracking-wider mb-6 text-2xl leading-1.4em">
@@ -22,7 +22,7 @@ const Vision = () => {
             </div>
           </div>
         </div>
-        <div className="relative my-20 w-full py-28">
+        <div className="relative w-full lg:py-20 lg:my-28">
           <img
             src="/src/assets/pray.webp"
             className=" objec-cover"

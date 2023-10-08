@@ -10,6 +10,7 @@ import Footer from './components/footer/Footer';
 import LandingPage from './components/landingPage/LandingPage';
 import Vision from './components/vision/Vision';
 import Welcome from './components/welcome/Welcome';
+import Header from './components/header/Header';
 //import Events from './components/events/Events';
 
 const theme = createTheme({
@@ -24,7 +25,8 @@ const theme = createTheme({
 
 function App() {
   return (
-    <>
+    <div className="relative">
+      <Header></Header>
       <LandingPage></LandingPage>
       <Welcome></Welcome>
       <ThemeProvider theme={theme}>
@@ -32,7 +34,7 @@ function App() {
       </ThemeProvider>
       {/* <Events></Events> */}
       <Footer></Footer>
-    </>
+    </div>
   );
 }
 

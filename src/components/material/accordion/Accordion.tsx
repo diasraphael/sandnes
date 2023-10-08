@@ -33,8 +33,10 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-            Aliquam eget maximus est, id dignissim quam.
+            Building a united church that is spiritually powerful. Consisting of
+            Tamil Christian brothers and sisters who wish to worship the Lord
+            God in truth and spirit, with Jesus Christ as the head and
+            themselves as the body of Christ.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -54,9 +56,10 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Donec placerat, lectus sed mattis semper, neque lectus feugiat
-            lectus, varius pulvinar diam eros in elit. Pellentesque convallis
-            laoreet laoreet.
+            Preaching the Good news of Christ to those Tamil people living in
+            Norway. Espesially to those who do not know Christ and His love.
+            This is to redeem them from bondages of sin, curse, pain and lead
+            them towards Christ teaching.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -76,8 +79,12 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer
-            sit amet egestas eros, vitae egestas augue. Duis vel est augue.
+            The Faith Baptist Church has started its mission from year 2000.
+            From the begining Tamil Baptist Church has always volenteered and
+            involved with social welfare and mission in SriLanka. Todays
+            pathatic situation in which our peoples are facing, so its our duty
+            to raise and built our nation. Our loved ones has faced the worst
+            humanitarian disaster of the decade.
           </Typography>
         </AccordionDetails>
       </Accordion>

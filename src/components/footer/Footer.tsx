@@ -36,7 +36,7 @@ const Footer = () => {
               <p>Faith Baptist Church</p>
               <p>Sandnes</p>
               <p>Norway</p>
-              <p>Email: paul.kalai@gmail.com</p>
+              <p>Email: paulkalai@gmail.com</p>
             </div>
             <div className="flex-1">
               <h1 className="text-2xl mb-8">Stay Tuned</h1>

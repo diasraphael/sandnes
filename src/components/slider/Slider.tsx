@@ -10,8 +10,10 @@ interface SliderContentProps {
 
 const SliderContent = ({ title, description }: SliderContentProps) => {
   return (
-    <div className="h-auto max-w-[860px] px-4 pt-40 pb-20 min-h-screen text-center flex flex-col justify-center items-center mx-auto">
-      <h1 className="text-white text-[120px] my-3 leading-[1.2em]">{title}</h1>
+    <div className="h-auto max-w-[300px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[800px] px-4 pt-8 sm:pt-20 pb-20 min-h-screen text-center flex flex-col justify-center items-center mx-auto">
+      <h1 className="text-white text-[40px] sm:text-[72px] md:[115px] my-3 leading-[1.2em]">
+        {title}
+      </h1>
       <p className="max-w-[700px] text-white text-center mt-5 mb-10 font-['Jost'] text-base font-light leading-loose">
         {description}
       </p>
@@ -27,21 +29,21 @@ const Slider = () => {
   const slides = [
     {
       className: 'bg-landing z-[100]',
-      title: 'Life-Changing Journey to God',
+      title: 'Faith Baptist Church Sandnes',
       description:
-        'Our common creed is our belief in the Bible, our deep faith in Jesus Christ, and our acceptance of the unconditional love of God.',
+        'Faith Baptist Church welcomes everyone irrespective of the language, culture and religion. We love God. We are a group of tamil christians come together to worship Jesus and have fellowship. We would like to transform people and their lives by teaching them about Jesus.',
     },
     {
       className: 'bg-interior z-[100]',
-      title: 'Transform Life Restore Hope',
+      title: 'Oneness Gospel Nations',
       description:
-        'Our common creed is our belief in the Bible, our deep faith in Jesus Christ, and our acceptance of the unconditional love of God.',
+        'And the Lord answered me, and said, Write the vision, and make it plain upon tables, that he may run that readeth it',
     },
     {
       className: 'bg-church z-[100]',
-      title: 'Find Your Way to Christ',
+      title: 'Jesus-Way Truth Life',
       description:
-        'Our common creed is our belief in the Bible, our deep faith in Jesus Christ, and our acceptance of the unconditional love of God.',
+        '“I am the way and the truth and the life. No one comes to the Father except through me” (John 14:6)',
     },
   ];
 
@@ -64,7 +66,7 @@ const Slider = () => {
   );
 
   return (
-    <div className="w-screen h-screen relative">
+    <div className="w-full h-screen relative">
       <button
         onClick={() => handleButtonClick(-1)}
         className="absolute z-20 left-8 w-[50px] h-[50px] text-[#f5f3f1] border-[1px] border-[rgba(255, 255, 255, 0.5)] rounded-full transition-all bottom-[0%] text-5xl top-1/2 -translate-y-1/2 text-opacity-50 cursor-pointer px-2 bg-opacity-10 hover:text-white focus:text-white duration-300 focus:outline-black flex justify-center items-center hover:bg-[#832732] hover:border-[#832732]"
@@ -77,7 +79,7 @@ const Slider = () => {
       >
         <HiArrowNarrowRight size={18} />
       </button>
-      <div className="m-0 p-0 relative w-screen h-screen">
+      <div className="m-0 p-0 relative w-full h-screen">
         {slides.map((slide, index) => (
           <div
             key={index}

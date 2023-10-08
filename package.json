@@ -23,7 +23,8 @@
     "react-icons": "^4.11.0",
     "react-slick": "^0.29.0",
     "react-swipeable-views": "^0.14.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "vite-plugin-copy": "^0.1.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -32,14 +33,17 @@
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.3",
+    "@vue/compiler-sfc": "^3.3.4",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "file-loader": "^6.2.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-svg": "^0.7.0"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
