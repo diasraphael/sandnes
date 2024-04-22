@@ -11,15 +11,13 @@ const Promise = () => {
           className="h-full max-h-[300px] max-w-[350px] mb-8"
         />
         <div className="text-[#afafaf] tracking-wider mb-6 text-2xl">
-          Our Lord's Promise 2023
+          Our Lord's Promise 2024
         </div>
         <div className="text-[#231917] mt-4 font-cormorant-infant text-4xl font-normal max-w-5xl leading-[3rem] align-middle">
-          Look, there on the mountains, the feet of one who brings good news,
-          who proclaims peace! Celebrate your festivals, Judah, and fulfill your
-          vows. No more will the wicked invade you; they will be completely
-          destroyed.
+          "Enlarge the place of your tent, stretch your tent curtains wide, do
+          not hold back; lengthen your cords, strengthen your stakes"
         </div>
-        <div className="text-[#832732] text-lg mt-4">Nahum 1:15</div>
+        <div className="text-[#832732] text-lg mt-4">Isaiah 54:2</div>
       </div>
     </div>
   );
